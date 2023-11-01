@@ -1,0 +1,22 @@
+{
+  "type": "module",
+  "private": true,
+  "workspaces": [
+    "server",
+    "client",
+    "e2e"
+  ],
+  "scripts": {
+    "build:client": "yarn workspace hydrospire-full-client build",
+    "dev": "yarn workspace hydrospire-full-server dev",
+    "dev:debug": "yarn workspace hydrospire-full-server dev:debug",
+    "heroku-postbuild": "yarn workspace hydrospire-full-client build",
+    "start": "yarn workspace hydrospire-full-server start",
+    "dev:cypress": "yarn workspace hydrospire-full-server dev:e2e",
+    "e2e:open": "yarn workspace hydrospire-full-e2e e2e:open",
+    "e2e:run": "yarn workspace hydrospire-full-e2e e2e:run"
+  },
+  "engines": {
+    "node": "^16.18"
+  }
+}

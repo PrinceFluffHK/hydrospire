@@ -9,6 +9,7 @@ import "../assets/scss/main.scss";
 import TopBar from "./layout/TopBar";
 import HomePage from "./HomePage";
 import Team from "./Team";
+import Founders from "./Founders";
 
 const App = (props) => {
   const [currentUser, setCurrentUser] = useState(undefined);
@@ -30,7 +31,7 @@ const App = (props) => {
       <TopBar user={currentUser} />
       <Switch>
         <Route exact path="/" component={HomePage} />
-        <Route exact path="/team" Component={Team} />
+        <Route exact path="/team" component={Team} />
         {/* <Route exact path="/users/new" component={RegistrationForm} />
         <Route exact path="/user-sessions/new" component={SignInForm} /> */}
       </Switch>

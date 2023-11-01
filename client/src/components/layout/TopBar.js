@@ -28,10 +28,13 @@ const TopBar = ({ user }) => {
           <li>
             <Link to="/">Home</Link>
           </li>
+          <li>
+            <Link to="/team">Team</Link>
+          </li>
         </ul>
       </div>
       <div className="top-bar-right">
-        <ul className="menu">{user ? authenticatedListItems : unauthenticatedListItems}</ul>
+        {/* <ul className="menu">{user ? authenticatedListItems : unauthenticatedListItems}</ul> */}
       </div>
     </div>
   );

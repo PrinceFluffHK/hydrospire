@@ -3,13 +3,14 @@ import TeamMember from "../models/TeamMember.js";
 import dougPicture from "../images/1516275782592.jpeg";
 import lindaPicture from "../images/LindaTempleton.jpeg";
 import simonPicture from "../images/Simon.png";
-import peterPicture from "../images/Screenshot 2023-10-31 at 12.47.17 PM.png";
-import johnPicture from "../images/Screenshot 2023-10-31 at 12.58.55 PM.png"
+import peterPicture from "../images/Screenshot 2023-10-31 at 12.47.17 PM.png";
+import johnPicture from "../images/Screenshot 2023-10-31 at 12.58.55 PM.png"
 
 const Team = (props) => {
     const dougLawrence = new TeamMember(
         "Doug Lawrence",
         "CEO",
+        // "../images/Screenshot 2023-10-31 at 12.47.17 PM.png",
         dougPicture,
         "Former VP/GM Becton Dickinson Engineer, Penn and MBA, Kellogg",
         "https://www.linkedin.com/in/douglaswlawrence/"
@@ -44,10 +45,9 @@ const Team = (props) => {
     )
 
     return (
-        <div>
+        <div> 
             <div style={{ margin: "0rem 4rem 0rem 4rem" }}>
                 <h1>Our Founders</h1>
-                {/* <div className="team-grid"> */}
                 <div className="grid-x">
                     {dougLawrence.display()}
                     {lindaTempleman.display()}
@@ -62,7 +62,6 @@ const Team = (props) => {
                         {johnKheir.display()}
                     </div>
                 </div>
-
             </div>
         </div>
     );

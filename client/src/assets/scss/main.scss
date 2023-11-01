@@ -12,3 +12,24 @@
   -moz-tab-size: 4;
   tab-size: 4;
 }
+
+.app {
+  background-color: #d8eefe;
+}
+
+.team-thumbnail {
+  object-fit: cover;
+  outline-style: solid;
+  outline-width: 2px;
+  height: 270px;
+  width: 270px;
+  margin-bottom: 1rem;
+}
+
+.team-container {
+  width: 270px;
+}
+
+.page-margins {
+  margin: 0rem 4rem 0rem 4rem;
+}

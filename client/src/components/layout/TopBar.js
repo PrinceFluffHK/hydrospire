@@ -26,7 +26,7 @@ const TopBar = ({ user }) => {
       <div className="top-bar-left">
         <ul className="menu">
           <Link to="/">
-            <img className="home-page-logo" src={logo} style={{ height: "3rem" }} />
+            <img className="home-page-logo" src={logo} style={{ height: "4rem" }} />
           </Link>
           {/* <li className="menu-text">App</li> */}
         </ul>
@@ -34,13 +34,19 @@ const TopBar = ({ user }) => {
       <div className="top-bar-right">
         <ul className="menu">
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/">
+              <h5>Home</h5>
+            </Link>
           </li>
           <li>
-            <Link to="/team">Team</Link>
+            <Link to="/team">
+              <h5>Team</h5>
+            </Link>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <Link to="/contact">
+              <h5>Contact</h5>
+            </Link>
           </li>
         </ul>
         {/* <ul className="menu">{user ? authenticatedListItems : unauthenticatedListItems}</ul> */}

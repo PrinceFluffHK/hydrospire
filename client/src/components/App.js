@@ -10,6 +10,7 @@ import TopBar from "./layout/TopBar";
 import HomePage from "./HomePage";
 import Team from "./Team";
 import Founders from "./Founders";
+import Contact from "./Contact";
 
 const App = (props) => {
   const [currentUser, setCurrentUser] = useState(undefined);
@@ -33,7 +34,7 @@ const App = (props) => {
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route exact path="/team" component={Team} />
-          <Route exact path="/contact" component={Team} />
+          <Route exact path="/contact" component={Contact} />
           {/* <Route exact path="/users/new" component={RegistrationForm} />
           <Route exact path="/user-sessions/new" component={SignInForm} /> */}
         </Switch>

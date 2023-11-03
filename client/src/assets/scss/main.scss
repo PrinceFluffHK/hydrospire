@@ -20,6 +20,7 @@
 .team-thumbnail {
   object-fit: cover;
   outline-style: solid;
+  outline-color: #0073aa;
   outline-width: 2px;
   height: 270px;
   width: 270px;
@@ -44,12 +45,19 @@
 
 .contact-callout {
   background-color: white;
+  outline-style: solid;
+  outline-color: #0073aa;
+  outline-width: 3px;
   height: 325px;
   width: 325px;
   border-radius: 15px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  &-item{
+    margin-top: 2rem;
+  }
 }
 
 h5 {
@@ -61,4 +69,9 @@ h5 {
 hr.dashed {
   border-top: 3px dashed #bbb;
 
+}
+
+.bottom-bar-container {
+  background-color: #424545;
+  height: 500px
 }

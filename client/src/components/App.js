@@ -11,6 +11,7 @@ import HomePage from "./HomePage";
 import Team from "./Team";
 import Founders from "./Founders";
 import Contact from "./Contact";
+import BottomBar from "./layout/BottomBar";
 
 const App = (props) => {
   const [currentUser, setCurrentUser] = useState(undefined);
@@ -38,6 +39,7 @@ const App = (props) => {
           {/* <Route exact path="/users/new" component={RegistrationForm} />
           <Route exact path="/user-sessions/new" component={SignInForm} /> */}
         </Switch>
+        <BottomBar/>
       </Router>
     </div>
   );

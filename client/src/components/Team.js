@@ -45,12 +45,12 @@ const Team = (props) => {
     "Associate Professor at Harvard Medical School and Staff Physician in the Cardiac Intensive Care Unit at Boston Children's Hospital."
   );
 
-  const andyBelt = new TeamMember("Andy Belt", "CEO, Giner Inc.", andyPicture, "[No Bio Provided]");
+  const andyBelt = new TeamMember("Andy Belt", "CEO, Giner Inc.", andyPicture);
 
   return (
     <div>
       <div className="page-margins">
-        <h1>Our Founders</h1>
+        <h1 style={{margin: "2rem 0rem 2rem 0rem"}}>Our Founders</h1>
         <div className="grid-x grid-margin-x">
           {dougLawrence.display()}
           {lindaTempleman.display()}
@@ -58,10 +58,10 @@ const Team = (props) => {
           {peterHemingway.display()}
         </div>
       </div>
-      <div style={{ backgroundColor: "white", paddingTop: "1rem" }}>
+      <div style={{ backgroundColor: "#d8eefe", paddingTop: "1rem" }}>
         <div className="page-margins">
-          <h1>Our Advisors</h1>
-          <div className="grid-x grid-margin-x">
+          <h1 style={{margin: "0rem 0rem 2rem 0rem"}}>Our Advisors</h1>
+          <div className="grid-x grid-margin-x" style={{paddingBottom: "2rem"}}>
             {johnKheir.display()}
             {andyBelt.display()}
           </div>

@@ -1,7 +1,9 @@
 import React from "react";
-import logo from "../images/Hydrospire logo large.jpg";
 import metaKnight from "../images/MK.jpeg";
 import shutterstock from "../images/elder.png";
+import h2Generator from "../images/generator.png"
+import childMask from "../images/Child in mask.jpg"
+import device from "../images/IMG_6101.jpg"
 
 const HomePage = (props) => {
   return (
@@ -13,7 +15,7 @@ const HomePage = (props) => {
       <div className="">
         <div className="grid-x home-page-panel">
           <div className="home-page-item cell small-12 medium-6">
-            <img className="stock-image" src={metaKnight} />
+            <img className="stock-image" src={childMask} />
           </div>
           <div className="home-page-item cell small-12 medium-6">
             <h1>A Fight Worth Fighting</h1>
@@ -30,12 +32,12 @@ const HomePage = (props) => {
             </div>
           </div>
           <div className="home-page-item cell small-12 medium-6">
-            <img className="stock-image" src={metaKnight} />
+            <img className="stock-image" src={device} />
           </div>
         </div>
         <div className="grid-x home-page-panel">
           <div className="home-page-item cell small-12 medium-6">
-            <img className="stock-image" src={metaKnight} />
+            <img className="stock-image" src={h2Generator} style={{objectPosition: "0 0"}}/>
           </div>
           <div className="home-page-item cell small-12 medium-6">
             <h1>Our Mission</h1>

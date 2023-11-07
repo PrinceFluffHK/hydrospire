@@ -45,7 +45,7 @@ const Team = (props) => {
     "Associate Professor at Harvard Medical School and Staff Physician in the Cardiac Intensive Care Unit at Boston Children's Hospital."
   );
 
-  const andyBelt = new TeamMember("Andy Belt", "CEO, Giner Inc.", andyPicture);
+  const andyBelt = new TeamMember("Andy Belt", "CEO, Giner Inc.", andyPicture, "Harvard Business School MBA, President and CEO of Giner Labs and later Giner ELX");
 
   return (
     <div>

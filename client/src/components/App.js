@@ -7,7 +7,6 @@ import "../assets/scss/main.scss";
 import TopBar from "./layout/TopBar";
 import HomePage from "./HomePage";
 import Team from "./Team";
-import Founders from "./Founders";
 import Contact from "./Contact";
 import BottomBar from "./layout/BottomBar";
 

@@ -1,5 +1,4 @@
 import React from "react";
-import metaKnight from "../images/MK.jpeg";
 import shutterstock from "../images/elder.png";
 import h2Generator from "../images/generator.png"
 import childMask from "../images/Child in mask.jpg"

@@ -11,7 +11,6 @@ const Team = (props) => {
   const dougLawrence = new TeamMember(
     "Doug Lawrence",
     "CEO",
-    // "../images/Screenshot 2023-10-31 at 12.47.17 PM.png",
     dougPicture,
     "Former VP/GM Becton Dickinson Engineer, Penn and MBA, Kellogg",
     "https://www.linkedin.com/in/douglaswlawrence/"

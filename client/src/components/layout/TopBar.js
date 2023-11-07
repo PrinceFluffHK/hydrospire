@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import SignOutButton from "../authentication/SignOutButton";
+import logo from "../../images/Hydrospire logo large.jpg";
 
 const TopBar = ({ user }) => {
   const unauthenticatedListItems = [
@@ -24,16 +25,30 @@ const TopBar = ({ user }) => {
     <div className="top-bar">
       <div className="top-bar-left">
         <ul className="menu">
-          <li className="menu-text">App</li>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/team">Team</Link>
-          </li>
+          <Link to="/">
+            <img className="home-page-logo" src={logo} style={{ height: "4rem" }} />
+          </Link>
+          {/* <li className="menu-text">App</li> */}
         </ul>
       </div>
       <div className="top-bar-right">
+        <ul className="menu">
+          <li>
+            <Link to="/">
+              <h5>Home</h5>
+            </Link>
+          </li>
+          <li>
+            <Link to="/team">
+              <h5>Team</h5>
+            </Link>
+          </li>
+          <li>
+            <Link to="/contact">
+              <h5>Contact</h5>
+            </Link>
+          </li>
+        </ul>
         {/* <ul className="menu">{user ? authenticatedListItems : unauthenticatedListItems}</ul> */}
       </div>
     </div>

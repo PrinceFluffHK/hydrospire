@@ -1,6 +1,6 @@
 import React from "react";
 import shutterstock from "../images/elder.png";
-import h2Generator from "../images/generator.png"
+// import h2Generator from "../images/generator.png"
 import childMask from "../images/Child in mask.jpg"
 import device from "../images/IMG_6101.jpg"
 
@@ -10,7 +10,7 @@ const HomePage = (props) => {
       <div className="cover-container">
         <img className="cover-photo" src={shutterstock} alt="https://www.shutterstock.com/image-photo/adult-granddaguhter-supporting-her-senior-grandmother-2172757295"/>
       </div>
-      <h1 className="" style={{textAlign: "center"}}>Helping Ensure a Healthy Tomorrow</h1>
+      <h1 className="" style={{textAlign: "center"}}>Better Recovery from Stroke and Cardiac Events</h1>
       <div className="">
         <div className="grid-x home-page-panel">
           <div className="home-page-item cell small-12 medium-6">
@@ -36,7 +36,7 @@ const HomePage = (props) => {
         </div>
         <div className="grid-x home-page-panel">
           <div className="home-page-item cell small-12 medium-6">
-            <img className="stock-image" src={h2Generator} style={{objectPosition: "0 0"}}/>
+            <img className="stock-image" src={device} style={{objectPosition: "0 0"}}/>
           </div>
           <div className="home-page-item cell small-12 medium-6">
             <h1>Our Mission</h1>

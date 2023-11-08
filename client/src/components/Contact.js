@@ -21,13 +21,13 @@ const Contact = (props) => {
             <div>
               <img src={emailPic} />
             </div>
-            <a href="mailto: hydrospire@gmail.com">
-              <h5 className="contact-callout-item">hydrospire@gmail.com</h5>
+            <a href="mailto: info@hydrospiremedical.com">
+              <h5 className="contact-callout-item">info@hydrospiremedical.com</h5>
             </a>
           </div>
           <div className="contact-callout">
             <img src={callPic} />
-            <h5 className="contact-callout-item">(123) 456-7890</h5>
+            <h5 className="contact-callout-item">(973) 946-7040</h5>
           </div>
         </div>
       </div>

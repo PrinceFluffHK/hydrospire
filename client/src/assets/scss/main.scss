@@ -45,6 +45,19 @@
   flex-direction: column;
 }
 
+.mission-container {
+  height: 30rem;
+  margin: 2rem 5rem 2rem 5rem;
+  display: flex;
+  // align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  h3,
+  p {
+    text-align: justify;
+  }
+}
+
 .iri-container {
   display: flex;
   flex-direction: column;
@@ -59,7 +72,7 @@
   margin: 0rem 3rem 0rem 3rem;
 }
 
-.p-container{
+.p-container {
   width: 500px;
   text-align: justify;
 }
@@ -83,7 +96,7 @@
   margin: 0rem 4rem 0rem 4rem;
 }
 
-.contact-container-container{
+.contact-container-container {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -180,4 +193,9 @@ h5 {
 .vl {
   border-left: 4px solid #0073aa;
   height: 600px;
+}
+
+.hl {
+  border-top: 4px solid #0073aa;
+  width: 100%;
 }

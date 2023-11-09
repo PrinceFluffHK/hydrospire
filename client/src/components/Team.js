@@ -12,7 +12,7 @@ const Team = (props) => {
     "Doug Lawrence",
     "CEO",
     dougPicture,
-    "Former VP/GM Becton Dickinson Engineer, Penn and MBA, Kellogg",
+    "Former VP/GM Becton Dickinson. BSc Engineering Penn, BSEcon Wharton, and MBA Kellogg",
     "https://www.linkedin.com/in/douglaswlawrence/"
   );
 
@@ -44,12 +44,17 @@ const Team = (props) => {
     "Associate Professor at Harvard Medical School and Staff Physician in the Cardiac Intensive Care Unit at Boston Children's Hospital."
   );
 
-  const andyBelt = new TeamMember("Andy Belt", "CEO, Giner Inc.", andyPicture, "Harvard Business School MBA, President and CEO of Giner Labs and later Giner ELX");
+  const andyBelt = new TeamMember(
+    "Andy Belt",
+    "Harvard MBA",
+    andyPicture,
+    "Bain & Co consulting, founder of consulting and packaged goods startups. Founder, Hydrospire Inc."
+  );
 
   return (
     <div>
       <div className="page-margins">
-        <h1 style={{margin: "2rem 0rem 2rem 0rem"}}>Our Founders</h1>
+        <h1 style={{ margin: "2rem 0rem 2rem 0rem" }}>Our Founders</h1>
         <div className="grid-x grid-margin-x">
           {dougLawrence.display()}
           {lindaTempleman.display()}
@@ -59,8 +64,8 @@ const Team = (props) => {
       </div>
       <div style={{ backgroundColor: "#d8eefe", paddingTop: "1rem" }}>
         <div className="page-margins">
-          <h1 style={{margin: "0rem 0rem 2rem 0rem"}}>Our Advisors</h1>
-          <div className="grid-x grid-margin-x" style={{paddingBottom: "2rem"}}>
+          <h1 style={{ margin: "0rem 0rem 2rem 0rem" }}>Our Advisors</h1>
+          <div className="grid-x grid-margin-x" style={{ paddingBottom: "2rem" }}>
             {johnKheir.display()}
             {andyBelt.display()}
           </div>

@@ -26,12 +26,15 @@
 }
 
 .home-page-panel {
-  height: 25rem;
-  margin: 0rem 4rem 0rem 4rem;
+  height: 24rem;
+  margin: 0rem 12rem 2rem 12rem;
   &-blue {
-    height: 25rem;
-    padding: 0rem 4rem 0rem 4rem;
+    height: 28rem;
+    padding: 0rem 10rem 0rem 10rem;
     background-color: #d8eefe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 
@@ -42,7 +45,34 @@
   flex-direction: column;
 }
 
-.p-container{
+.mission-container {
+  height: 30rem;
+  margin: 2rem 5rem 2rem 5rem;
+  display: flex;
+  // align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  h3,
+  p {
+    text-align: justify;
+  }
+}
+
+.iri-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  // align-items: center;
+  // margin: 0rem 2rem 0rem 2rem;
+}
+
+.p-iri {
+  text-align: justify;
+  font-size: 24px;
+  margin: 0rem 3rem 0rem 3rem;
+}
+
+.p-container {
   width: 500px;
   text-align: justify;
 }
@@ -54,8 +84,8 @@
   outline-color: #d8eefe;
   outline-color: #0073aa;
   outline-width: 5px;
-  height: 300px;
-  width: 540px;
+  height: 350px;
+  width: 500px;
 }
 
 .team-container {
@@ -66,7 +96,7 @@
   margin: 0rem 4rem 0rem 4rem;
 }
 
-.contact-container-container{
+.contact-container-container {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -89,7 +119,7 @@
   outline-width: 4px;
   border-radius: 15px;
   height: 250px;
-  width: 250px;
+  width: 350px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -163,4 +193,9 @@ h5 {
 .vl {
   border-left: 4px solid #0073aa;
   height: 600px;
+}
+
+.hl {
+  border-top: 4px solid #0073aa;
+  width: 100%;
 }

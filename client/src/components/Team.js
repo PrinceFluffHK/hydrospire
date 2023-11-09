@@ -12,7 +12,7 @@ const Team = (props) => {
     "Doug Lawrence",
     "CEO",
     dougPicture,
-    "Former VP/GM Becton Dickinson. BSC Engineering from Penn and MBA, Kellogg",
+    "Former VP/GM Becton Dickinson. BSc Engineering Penn, BSEcon Wharton, and MBA Kellogg",
     "https://www.linkedin.com/in/douglaswlawrence/"
   );
 
@@ -48,7 +48,7 @@ const Team = (props) => {
     "Andy Belt",
     "Harvard MBA",
     andyPicture,
-    "[word] and co-founder on consulting and packaged goods businesses. Founder, Hydrospire, Inc."
+    "Bain & Co consulting, founder of consulting and packaged goods startups. Founder, Hydrospire Inc."
   );
 
   return (

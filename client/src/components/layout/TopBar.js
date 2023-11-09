@@ -39,6 +39,11 @@ const TopBar = ({ user }) => {
             </Link>
           </li>
           <li>
+            <Link to="/iri">
+              <h5>IRI</h5>
+            </Link>
+          </li>
+          <li>
             <Link to="/team">
               <h5>Team</h5>
             </Link>
@@ -49,7 +54,6 @@ const TopBar = ({ user }) => {
             </Link>
           </li>
         </ul>
-        {/* <ul className="menu">{user ? authenticatedListItems : unauthenticatedListItems}</ul> */}
       </div>
     </div>
   );

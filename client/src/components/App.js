@@ -8,7 +8,7 @@ import HomePage from "./HomePage";
 import Team from "./Team";
 import Contact from "./Contact";
 import BottomBar from "./layout/BottomBar";
-import About from "./About";
+import IRI from "./About";
 
 const App = (props) => {
   return (
@@ -19,7 +19,7 @@ const App = (props) => {
           <Route exact path="/" component={HomePage} />
           <Route exact path="/team" component={Team} />
           <Route exact path="/contact" component={Contact} />
-          <Route exact path="/about" component={About} />
+          <Route exact path="/iri" component={IRI} />
         </Switch>
         <BottomBar/>
       </Router>

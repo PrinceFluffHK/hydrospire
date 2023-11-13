@@ -1,13 +1,12 @@
 import React from "react";
-import metaKnight from "../images/MK.jpeg";
-import bloodClot from "../images/bloodClot.png"
-import rescucitation from "../images/rescucitation.png"
-import stent from "../images/stent.png"
-import damagedBrain from "../images/damagedBrain.png"
-import hydrogenMolecule from "../images/hydrogenMolecule.png"
-import recoveringStroke from "../images/recoveringStroke.png"
+import bloodClot from "../images/shutterstock_clogged-blood.jpeg"
+import rescucitation from "../images/shutterstock_surgery.jpeg"
+import stent from "../images/shutterstock_guide-wire.jpeg"
+import redBrain from "../images/shutterstock_red-brain.jpeg"
+import hydrogenMolecule from "../images/shutterstock_hydrogen.jpeg"
+import recoveringStroke from "../images/shutterstock_hospital-woman.jpeg"
 import device from "../images/IMG_6101.jpg"
-import research from "../images/research.png"
+import research from "../images/shutterstock_research.jpeg"
 
 const IRI = (props) => {
   return (
@@ -53,7 +52,7 @@ const IRI = (props) => {
             <img className="stock-image" src={stent} alt="https://www.shutterstock.com/image-photo/guide-wire-196685048" />
           </div>
           <div className="cell small-12 medium-6">
-            <img className="stock-image" src={damagedBrain} alt="https://www.shutterstock.com/image-photo/xray-mans-head-cerebral-stroke-brain-1892064544" />
+            <img className="stock-image" src={redBrain} alt="https://www.shutterstock.com/image-photo/xray-mans-head-cerebral-stroke-brain-1892064544" />
           </div>
         </div>
       </div>
@@ -97,7 +96,7 @@ const IRI = (props) => {
             <img className="stock-image" src={research} alt="https://www.shutterstock.com/image-photo/young-scientists-conducting-research-investigations-medical-2149947783" />
           </div>
           <div className="cell small-12 medium-6">
-            <img className="stock-image" src={device} alt="https://www.shutterstock.com/image-photo/abstract-transparent-hydrogen-h2-molecules-on-2253488127" />
+            <img className="stock-image" src={device} alt="" />
           </div>
         </div>
       </div>

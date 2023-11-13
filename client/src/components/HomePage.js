@@ -1,12 +1,9 @@
 import React from "react";
-import elder from "../images/elder.png";
+import elder from "../images/shutterstock_elderly-walk.jpeg";
 
 const HomePage = (props) => {
   return (
     <div>
-      {/* <h1 className="" style={{ textAlign: "center" }}>
-        Better Recovery from Stroke and Cardiac Ischemic Events
-      </h1> */}
       <div className="cover-container">
         <img
           className="cover-photo"
@@ -23,7 +20,7 @@ const HomePage = (props) => {
         </h3>
         <p>
           HydroSpire is a research-stage company that currently has no approved products available
-          for human use{" "}
+          for human use
         </p>
         <div className="home-page-item"></div>
       </div>

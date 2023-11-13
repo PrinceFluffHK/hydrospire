@@ -1,7 +1,7 @@
 import React from "react";
 import emailPic from "../images/Email.png";
 import callPic from "../images/Call.png";
-import contactPicture from "../images/womanCalling.png";
+import contactPicture from "../images/shutterstock_elderly-call.jpeg";
 
 const Contact = (props) => {
   return (

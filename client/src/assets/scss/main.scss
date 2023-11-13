@@ -13,130 +13,13 @@
   tab-size: 4;
 }
 
-.team-thumbnail {
-  object-fit: cover;
-  outline-style: solid;
-  outline-color: #d8eefe;
-  outline-color: #0073aa;
-  outline-width: 5px;
-  height: 270px;
-  width: 270px;
-  margin-bottom: 1rem;
-  border-radius: 15px;
-}
-
-.home-page-panel {
-  height: 24rem;
-  margin: 0rem 12rem 2rem 12rem;
-  &-blue {
-    height: 28rem;
-    padding: 0rem 10rem 0rem 10rem;
-    background-color: #d8eefe;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-}
-
-.home-page-item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.mission-container {
-  height: 30rem;
-  margin: 2rem 5rem 2rem 5rem;
-  display: flex;
-  // align-items: center;
-  justify-content: space-around;
-  flex-direction: column;
-  h3,
-  p {
-    text-align: justify;
-  }
-}
-
-.iri-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  // align-items: center;
-  // margin: 0rem 2rem 0rem 2rem;
-}
-
-.p-iri {
-  text-align: justify;
-  font-size: 24px;
-  margin: 0rem 3rem 0rem 3rem;
-}
-
-.p-container {
-  width: 500px;
-  text-align: justify;
-}
-
-.stock-image {
-  border-radius: 15px;
-  object-fit: cover;
-  outline-style: solid;
-  outline-color: #d8eefe;
-  outline-color: #0073aa;
-  outline-width: 5px;
-  height: 350px;
-  width: 500px;
-}
-
-.team-container {
-  width: 270px;
-}
-
 .page-margins {
   margin: 0rem 4rem 0rem 4rem;
 }
 
-.contact-container-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  height: 47rem;
-}
-
-.contact-container {
-  display: flex;
-  justify-content: space-around;
-  height: 35rem;
-  align-items: center;
-}
-
-.contact-callout {
-  background-color: #d8eefe;
-  background-color: white;
-  outline-style: solid;
-  outline-color: #0073aa;
-  outline-width: 4px;
-  border-radius: 15px;
-  height: 250px;
-  width: 350px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  &-item {
-    margin-top: 2rem;
-  }
-}
-
 h5 {
-  color: #0073aa;
   margin-top: 7px;
   font-weight: bold;
-}
-
-hr.dashed {
-  border-top: 3px dashed #bbb;
 }
 
 .bottom-bar-container {
@@ -152,18 +35,6 @@ h5 {
   color: #0073aa;
 }
 
-.cover-container {
-  height: 500px;
-  width: 100%;
-  margin-bottom: 2rem;
-}
-
-.cover-photo {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-}
-
 .centered {
   position: absolute;
   top: 50%;
@@ -175,27 +46,17 @@ h5 {
   border-bottom: 3px solid #0073aa;
 }
 
-.contact-picture {
-  object-fit: cover;
-  height: 500px;
-  width: 500px;
-  outline-style: solid;
-  outline-color: #0073aa;
-  outline-width: 3px;
-  border-radius: 15px;
-  &-container {
+.flex-center {
+  &-space-around {
     display: flex;
     justify-content: space-around;
     align-items: center;
   }
 }
 
-.vl {
-  border-left: 4px solid #0073aa;
-  height: 600px;
-}
 
-.hl {
-  border-top: 4px solid #0073aa;
-  width: 100%;
-}
+@import "./foundation/homePage";
+@import "./foundation/iri";
+@import "./foundation/team";
+@import "./foundation/team";
+@import "./foundation/contact";

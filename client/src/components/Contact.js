@@ -6,7 +6,7 @@ import contactPicture from "../images/shutterstock_elderly-call.jpeg";
 const Contact = (props) => {
   return (
     <div style={{backgroundColor: "#d8eefe"}}>
-      <div className="page-margins contact-picture-container">
+      <div className="page-margins flex-center-space-around">
         <div className="contact-picture-container" style={{ flexDirection: "column" }}>
           <h1 style={{ margin: "0rem 0rem 2rem 0rem" }}>Contact Us</h1>
           <img

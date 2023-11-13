@@ -12,7 +12,7 @@ const HomePage = (props) => {
         />
       </div>
       <div className="mission-container">
-        <h1 style={{ fontSize: "80px" }}>Our Mission</h1>
+        <h1 className="our-mission">Our Mission</h1>
         <div className="hl"></div>
         <h3>
           Create the first approved hydrogen inhalation therapy system, and improve the
@@ -22,7 +22,6 @@ const HomePage = (props) => {
           HydroSpire is a research-stage company that currently has no approved products available
           for human use
         </p>
-        <div className="home-page-item"></div>
       </div>
     </div>
   );

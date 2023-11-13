@@ -11,7 +11,7 @@ const Team = (props) => {
   const dougLawrence = new TeamMember(
     "Doug Lawrence",
     "CEO",
-    dougPicture,
+    dougPicture,  
     "Former VP/GM Becton Dickinson. BSc Engineering Penn, BSEcon Wharton, MBA Kellogg",
   );
 
@@ -51,9 +51,9 @@ const Team = (props) => {
   );
 
   return (
-    <div>
+    <div style={{ margin: "2rem 0rem 0rem 0rem" }}>
       <div className="page-margins">
-        <h1 style={{ margin: "2rem 0rem 2rem 0rem" }}>Our Founders</h1>
+        <h1 className="team-headers">Our Founders</h1>
         <div className="grid-x grid-margin-x">
           {dougLawrence.display()}
           {lindaTempleman.display()}
@@ -63,7 +63,7 @@ const Team = (props) => {
       </div>
       <div style={{ backgroundColor: "#d8eefe", paddingTop: "1rem" }}>
         <div className="page-margins">
-          <h1 style={{ margin: "0rem 0rem 2rem 0rem" }}>Our Advisors</h1>
+          <h1 className="team-headers">Our Advisors</h1>
           <div className="grid-x grid-margin-x" style={{ paddingBottom: "2rem" }}>
             {johnKheir.display()}
             {andyBelt.display()}

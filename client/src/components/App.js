@@ -21,7 +21,7 @@ const App = (props) => {
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/iri" component={IRI} />
         </Switch>
-        <BottomBar/>
+        {/* <BottomBar/> */}
       </Router>
     </div>
   );

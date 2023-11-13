@@ -12,7 +12,7 @@ const Team = (props) => {
     "Doug Lawrence",
     "CEO",
     dougPicture,
-    "Former VP/GM Becton Dickinson. BSc Engineering Penn, BSEcon Wharton, and MBA Kellogg",
+    "Former VP/GM Becton Dickinson. BSc Engineering Penn, BSEcon Wharton, MBA Kellogg",
     "https://www.linkedin.com/in/douglaswlawrence/"
   );
 
@@ -20,35 +20,35 @@ const Team = (props) => {
     "Linda Templeman",
     "CSO",
     lindaPicture,
-    "Founding CEO, Ph.D Chemical Engineering, Cornell Program Lead at Giner Labs, now GLS"
+    "Ph.D Chemical Engineering, Cornell. Program Lead at Giner Labs, now GLS"
   );
 
   const simonStone = new TeamMember(
     "Simon G. Stone",
     "CTO",
     simonPicture,
-    "Founding CTO, Program manager and engineering electrochemist at Giner Labs and now GLS MS Chemistry, Arizona State University"
+    "Founding CTO, Program Manager and Engineering ElectroChemist at Giner Labs and Giner Life Sciences. MS Chemistry, Arizona State University"
   );
 
   const peterHemingway = new TeamMember(
     "Peter Hemingway",
     "CFO",
     peterPicture,
-    "MBA, Finance, VP Strategy and Business Development BVI Medical, Waltham Plant Controller Becton Dickinson"
+    "MBA, Finance, Babson. VP Strategy and Business Development BVI Medical, Waltham Plant Controller Becton Dickinson"
   );
 
   const johnKheir = new TeamMember(
     "Dr. John Kheir",
-    "Cardiologist, Boston Children's",
+    "Cardiologist, Boston Children's Hospital",
     johnPicture,
     "Associate Professor at Harvard Medical School and Staff Physician in the Cardiac Intensive Care Unit at Boston Children's Hospital."
   );
 
   const andyBelt = new TeamMember(
     "Andy Belt",
-    "Harvard MBA",
+    "MBA, Harvard",
     andyPicture,
-    "Bain & Co consulting, founder of consulting and packaged goods startups. Founder, Hydrospire Inc."
+    "Bain & Co Consulting. Founder of consulting and packaged goods startups. Founder, Hydrospire Inc."
   );
 
   return (

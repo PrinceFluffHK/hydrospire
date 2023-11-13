@@ -18,8 +18,8 @@ const HomePage = (props) => {
         <h1 style={{ fontSize: "80px" }}>Our Mission</h1>
         <div className="hl"></div>
         <h3>
-          Create the first officially-approved inhaled hydrogen therapy system, and improve the
-          recovery of millions of the millions of people impacted by stroke and cardiac arrest
+          Create the first approved hydrogen inhalation therapy system, and improve the
+          lives of the millions of people impacted reperfusion injury caused by stroke and cardiac arrest
         </h3>
         <p>
           HydroSpire is a research-stage company that currently has no approved products available

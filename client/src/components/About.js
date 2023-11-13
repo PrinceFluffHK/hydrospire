@@ -18,11 +18,11 @@ const IRI = (props) => {
           Ischemia is caused by interruption of oxygen carrying blood flow to any part of the body.
         </p>
         <p className="p-iri">
-          It is critical to restore blood flow within minutes to limit injury to critical organs
-        </p>
-        <p className="p-iri">
           Ischemic events such as Stroke and Cardiac Arrest are among the leading global killers;
           over 900,000 strokes and 800,000 cardiac arrests happen in the USA each year.
+        </p>
+        <p className="p-iri">
+          It is critical to restore blood flow within minutes to limit injury to critical organs
         </p>
       </div>
       <div className="home-page-panel-blue">
@@ -33,19 +33,16 @@ const IRI = (props) => {
           <div className="cell small-12 medium-6">
             <img className="stock-image" src={bloodClot} alt="https://www.shutterstock.com/image-photo/thickened-arteries-veins-coronary-heart-disease-2239662027" />
           </div>
-          {/* <div className="cell small-12 medium-4">
-            <img className="stock-image" src={metaKnight} alt="Meta Knight :0" />
-          </div> */}
         </div>
       </div>
       <div className="home-page-panel iri-container">
-        <h1 className="">Reperfusion Injury after restoration of blood flow</h1>
+        <h1 className="">Reperfusion Injury ocurrs after restoration of blood flow</h1>
         <p className="p-iri">
           IRI of the brain is thought to occur when brain cells, deprived of oxygen, enter anaerobic
-          metabolism and toxic metabolites, Reactive Oxygen Species (ROS) and precursors accumulate
+          metabolism and toxic metabolites, reactive oxygen species such as peroxides and other precursor molecules accumulate
         </p>
         <p className="p-iri">
-          When perfusion is restored and cells resume aerobic metabolism, accumulated toxins
+          When blood flow or perfusion is restored and cells resume aerobic metabolism, accumulated toxins
           overwhelm the cell's normal defenses and lead to DNA damage, cell wall disruption and
           trigger cell death / apoptosis
         </p>
@@ -61,13 +58,13 @@ const IRI = (props) => {
         </div>
       </div>
       <div className="home-page-panel iri-container">
-        <h1>Hydrogen: Reducing Damage, Accelerating Recovery</h1>
+        <h1>Reducing Damage and Accelerating Recovery with Hydrogen</h1>
         <p className="p-iri">
-          Acute oxidative stress induced by ischemia-reperfusion or inflammation can cause serious
+          Acute oxidative stress induced by ischemia-reperfusion can cause serious
           damage to tissues.
         </p>
         <p className="p-iri">
-          Research has shown than Hydrogen can scavenge these damaging oxygen compounds, without
+          Research has shown that hydrogen can scavenge these damaging oxygen compounds, without
           impacting oxygen compounds important to cell health.
         </p>
       </div>

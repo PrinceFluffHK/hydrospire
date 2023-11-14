@@ -12,28 +12,32 @@ const Team = (props) => {
     "Doug Lawrence",
     "CEO",
     dougPicture,  
-    "Former VP/GM Becton Dickinson. BSc Engineering Penn, BSEcon Wharton, MBA Kellogg",
+    "BSc Engineering Penn, BSEcon Wharton, MBA Kellogg.",
+    "Former VP/GM Becton Dickinson"
   );
 
   const lindaTempleman = new TeamMember(
-    "Linda Templeman",
+    "Linda Tempelman",
     "CSO",
     lindaPicture,
-    "Ph.D Chemical Engineering, Cornell. Program Lead at Giner Labs, now GLS"
+    "Ph.D Chemical Engineering, Cornell",
+    "Program Lead at Giner Labs, now GLS"
   );
 
   const simonStone = new TeamMember(
     "Simon G. Stone",
-    "CTO",
+    "Technology Lead",
     simonPicture,
-    "Founding CTO, Program Manager and Engineering ElectroChemist at Giner Labs and Giner Life Sciences. MS Chemistry, Arizona State University"
+    "MS Chemistry, Arizona State University.",
+    "Founding CTO, Program Manager and Engineering ElectroChemist at Giner Labs and Giner Life Sciences."
   );
 
   const peterHemingway = new TeamMember(
     "Peter Hemingway",
     "CFO",
     peterPicture,
-    "MBA, Finance, Babson. VP Strategy and Business Development BVI Medical, Waltham Plant Controller Becton Dickinson"
+    "MBA, Finance, Babson.",
+    "VP Strategy and Business Development BVI Medical, Waltham Plant Controller Becton Dickinson"
   );
 
   const johnKheir = new TeamMember(
@@ -47,7 +51,8 @@ const Team = (props) => {
     "Andy Belt",
     "MBA, Harvard",
     andyPicture,
-    "Bain & Co Consulting. Founder of consulting and packaged goods startups. Founder, Hydrospire Inc."
+    "Co-founder, Hydrospire Inc. CEO, Giner Inc.",
+    "Bain & Co Consulting"
   );
 
   return (
@@ -57,8 +62,8 @@ const Team = (props) => {
         <div className="grid-x grid-margin-x">
           {dougLawrence.display()}
           {lindaTempleman.display()}
-          {simonStone.display()}
           {peterHemingway.display()}
+          {simonStone.display()}
         </div>
       </div>
       <div style={{ backgroundColor: "#d8eefe", paddingTop: "1rem" }}>

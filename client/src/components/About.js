@@ -17,8 +17,8 @@ const IRI = (props) => {
           Ischemia is caused by interruption of oxygen carrying blood flow to any part of the body.
         </p>
         <p className="p-iri">
-          Ischemic events such as Stroke and Cardiac Arrest are among the leading global killers;
-          over 900,000 strokes and 800,000 cardiac arrests happen in the USA each year.
+          Ischemic events such as Stroke and Cardiac Arrest are among the leading global killers.
+          Over 900,000 strokes and 800,000 cardiac arrests happen in the USA each year.
         </p>
         <p className="p-iri">
           It is critical to restore blood flow within minutes to limit injury to critical organs

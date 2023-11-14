@@ -11,29 +11,33 @@ const Team = (props) => {
   const dougLawrence = new TeamMember(
     "Doug Lawrence",
     "CEO",
-    dougPicture,
-    "VP/GM Becton Dickinson. BSc Engineering Penn, BSEcon Wharton, MBA Kellogg",
+    dougPicture,  
+    "BSc Engineering Penn, BSEcon Wharton, MBA Kellogg.",
+    "VP/GM Becton Dickinson"
   );
 
   const lindaTempleman = new TeamMember(
-    "Linda Templeman",
+    "Linda Tempelman",
     "CSO",
     lindaPicture,
-    "Ph.D Chemical Engineering, Cornell. Program Lead at Giner Labs, now GLS"
+    "Ph.D Chemical Engineering, Cornell",
+    "Program Lead at Giner Labs, now GLS"
   );
 
   const simonStone = new TeamMember(
     "Simon G. Stone",
-    "CTO",
+    "Technology Lead",
     simonPicture,
-    "Founding CTO, Program Manager and Engineering ElectroChemist at Giner Labs and Giner Life Sciences. MS Chemistry, Arizona State University"
+    "MS Chemistry, Arizona State University.",
+    "Founding CTO, Program Manager and Engineering ElectroChemist at Giner Labs and Giner Life Sciences."
   );
 
   const peterHemingway = new TeamMember(
     "Peter Hemingway",
     "CFO",
     peterPicture,
-    "MBA, Finance, Babson. VP Strategy and Business Development BVI Medical, Waltham Plant Controller Becton Dickinson"
+    "MBA, Finance, Babson.",
+    "VP Strategy and Business Development BVI Medical, Waltham Plant Controller Becton Dickinson"
   );
 
   const johnKheir = new TeamMember(
@@ -47,23 +51,24 @@ const Team = (props) => {
     "Andy Belt",
     "MBA, Harvard",
     andyPicture,
-    "Bain & Co Consulting. Founder of consulting and packaged goods startups. Founder, Hydrospire Inc."
+    "Co-founder, Hydrospire Inc. CEO, Giner Inc.",
+    "Bain & Co Consulting"
   );
 
   return (
-    <div>
+    <div style={{ margin: "2rem 0rem 0rem 0rem" }}>
       <div className="page-margins">
-        <h1 style={{ margin: "2rem 0rem 2rem 0rem" }}>Our Founders</h1>
+        <h1 className="team-headers">Our Founders</h1>
         <div className="grid-x grid-margin-x">
           {dougLawrence.display()}
           {lindaTempleman.display()}
-          {simonStone.display()}
           {peterHemingway.display()}
+          {simonStone.display()}
         </div>
       </div>
       <div style={{ backgroundColor: "#d8eefe", paddingTop: "1rem" }}>
         <div className="page-margins">
-          <h1 style={{ margin: "0rem 0rem 2rem 0rem" }}>Our Advisors</h1>
+          <h1 className="team-headers">Our Advisors</h1>
           <div className="grid-x grid-margin-x" style={{ paddingBottom: "2rem" }}>
             {johnKheir.display()}
             {andyBelt.display()}

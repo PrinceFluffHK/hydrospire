@@ -12,7 +12,7 @@ const Team = (props) => {
     "Doug Lawrence",
     "CEO",
     dougPicture,
-    "Former VP/GM Becton Dickinson. BSc Engineering Penn, BSEcon Wharton, MBA Kellogg",
+    "VP/GM Becton Dickinson. BSc Engineering Penn, BSEcon Wharton, MBA Kellogg",
   );
 
   const lindaTempleman = new TeamMember(
